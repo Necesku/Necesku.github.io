@@ -2047,7 +2047,7 @@ $jscomp.polyfill = function (e, r, p, m) {
 
           anim.remove($body[0]);
           $body.css({
-            display: 'block',
+            display: 'flex',
             overflow: 'hidden',
             height: 0,
             paddingTop: '',

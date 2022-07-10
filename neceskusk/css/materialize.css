@@ -5883,6 +5883,7 @@ body.keyboard-focused .dropdown-content li:focus {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 2rem;
+  flex-direction: column;
 }
 
 .sidenav .collapsible,
