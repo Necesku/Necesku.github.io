@@ -23,11 +23,13 @@
         }
     </style>
     <body>
+
         <!-- Navigation Bar-->
         <nav class="grey darken-4">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">NeceskuSK</a>
+                    <a href="#!" class="brand-logo">NeceskuSK</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="downloads.html"><i class="material-icons left">cloud</i>Downloads</a></li>
                     </ul>
@@ -36,18 +38,36 @@
         </nav>
         <!-- End of Navigation Bar-->
 
+        <!-- Side Navigation -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="downloads.html"><i class="material-icons">cloud</i>Downloads</a></li>
+        </ul>
+        <!-- End of Side Navigation -->
+
         <div class="container">
             <p>NeceskuSK is a collection of my scripts. To download just click Downloads on Navigation Bar</p>
             <!-- Website Updates-->
             <h3>Website Updates</h3>
             <div class="card green">
                 <div class="card-content">
+                    <span class="card-title">Side bar</span>
+                    <h6>Added Side Bar</h6>
+                    <p>12.07.2022</p>
+                </div>
+            </div>
+            <div class="card green">
+                <div class="card-content">
                     <span class="card-title">Download Page</span>
-                    <p>Added Download Page</p>
+                    <h6>Added Download Page</h6>
+                    <p>(No date)</p>
                 </div>
             </div>
         </div>
 
     </body>
+
+    <script>
+        M.AutoInit()
+    </script>
 
 </html>
