@@ -26,9 +26,47 @@
         <div class="container">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">Necesku</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="neceskusk/index.html">NeceskuSK</a></li>
+                    <li><a href="#N0SMP/index.html" onclick="M.toast({html: 'Sorry! It will be soon!'})">N0SMP (soon)</a></li>
+                    <li><a href="personal.html">.</a></li>
+                </ul>
             </div>
         </div>
     </nav>
-    <a href="neceskusk/index.html">Go to NeceskuSK</a>
+
+    <!-- Side Navigation -->
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+        <li><a class="white-text" href="#N0SMP/index.html" onclick="M.toast({html: 'Sorry! It will be soon!'})">N0SMP (soon)</a></li>
+        <li><a class="white-text" href="neceskusk/index.html">NeceskuSK</a></li>
+        <li><a href="personal.html">Personal Trash</a></li>
+    </ul>
+    <!-- End of Side Navigation -->
+
+    <div class="container">
+        <!-- About Me -->
+        <h5>Hi! I'm Necesku</h3>
+        <p>I'm just a guy that makes trashy websites and plays Minecraft and Valorant</p>
+        <h5>Working at:</h3>
+        <p>N0SMP ModPack (For trashy computers haha)</p>
+        <p>N0SMP Website (I'll never end it bcs I'm lazy ass) <-- not a joke</p>
+        <!-- Updates -->
+        <h3>Website Updates</h3>
+        <div class="card green">
+            <div class="card-content">
+            <span class="card-title">Content Update</span>
+            <h6>Added:</h6>
+            <p>Side Bar (Mobile)</p>
+            <p>About Me</p>
+            <p>Updates</p>
+            <p>NeceskuSK and N0SMP that will be soon :) redirects on Navigation Bar</p>
+            <h6>Date:</h6>
+            <p>17.07.2022</p>
+        </div>
+    </div>
 </body>
+<script>
+    M.AutoInit();
+</script>
 </html>
