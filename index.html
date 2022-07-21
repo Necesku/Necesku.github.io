@@ -22,13 +22,6 @@
     }
 </style>
 <body>
-    <noscript>
-        <h1>JavaScript needed</h1>
-        <h3>Why?</h3>
-        <p>bcs 1. why not</p>
-        <p>2. i use materialize that uses javascript</p>
-        <p>3. idk</p>
-    </noscript>
     <nav class="grey darken-4">
         <div class="container">
             <div class="nav-wrapper">
@@ -50,6 +43,17 @@
     <!-- End of Side Navigation -->
 
     <div class="container">
+        <!-- NoScript -->
+        <noscript>
+            <div class="card red">
+                <div class="card-content">
+                    <span class="card-title">alert('JavaScript is disabled :/');</span>
+                    <p>document.write('You don't have JavaScript enabled :/');</p>
+                    <p>document.write('Some feathures like Sidebar won't work :/');</p>
+                </div>
+            </div>
+        </noscript>
+        <!-- End of NoScript -->
         <!-- About Me -->
         <h5>Hi! I'm Necesku</h3>
         <p>I'm just a guy that makes trashy websites and plays Minecraft and Valorant</p>
@@ -60,16 +64,16 @@
         <h3>Website Updates</h3>
         <div class="card green">
             <div class="card-content">
-            <span class="card-title">Content Update</span>
-            <h6>Added:</h6>
-            <p>Side Bar (Mobile)</p>
-            <p>About Me</p>
-            <p>Updates</p>
-            <p>NeceskuSK and N0SMP (that will be soon :)) redirects on Navigation Bar</p>
-            <h6>Date:</h6>
-            <p>17.07.2022</p>
+                <span class="card-title">Content Update</span>
+                <h6>Added:</h6>
+                <p>Side Bar (Mobile)</p>
+                <p>About Me</p>
+                <p>Updates</p>
+                <p>NeceskuSK and N0SMP (that will be soon :)) redirects on Navigation Bar</p>
+                <h6>Date:</h6>
+                <p>17.07.2022</p>
+            </div>
         </div>
-    </div>
 </body>
 <script>
     M.AutoInit();
